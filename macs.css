@@ -2,46 +2,40 @@
     box-sizing: border-box;
 }
 
-.wrapper {
-    margin: 40px auto;
-    max-width: 1200px;
-    padding: 0 50px;
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gray ;
+    position: relative;
 }
-
-header {
-    background: url("./images/háttér.png") no-repeat center;
-    height: 800px;
-    width: 1200px;
-    color: rgba(0,0,0,0.5);
-}
-
-
+ 
 figure {
-    border: 5px ;
+    border: 5px solid rgba(0, 0, 0, 0.5);
     padding: 5px;
     background: white;
     max-width: 800px;
     margin: 40px auto;
-    position: absolute;   
+    position: relative;
 }
 
 figcaption {
-    position: relative;
+    position: absolute;
+    bottom: 1.5rem;
     left: 0;
     right: 0;
-    top: 0;
     text-align: center;
     font-size: 1.8rem;
-}
-
-figcaption {
-    background: rgba(255, 255, 255, 0.5);
-    padding: 0.3rem 0.5rem;
 }
 
 figcaption span {
     background: rgba(255, 255, 255, 0.5);
     padding: 0.3rem 0.5rem;
+
+}
+
+img {
+    width: 100%;
 }
 
     .left, .right {
@@ -58,8 +52,18 @@ figcaption span {
         right: 0;
     }
 
-    .pont {
+    .pont {      
         float: left;
         top: 0;
-        text-decoration: none;
     }
+
+    .pont a{
+        top: 0;
+        padding: 30px;
+        text-decoration: none;
+        color:black;
+        
+    }
+
+  
+
